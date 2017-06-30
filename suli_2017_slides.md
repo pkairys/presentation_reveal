@@ -2,7 +2,7 @@
 % Overview and Status
 % Paul Kairys
 
-# Are perovskite alloys entropy stabalized?
+# Are perovskite alloys entropy stabilized?
 
 ## Halide perovskites
 
