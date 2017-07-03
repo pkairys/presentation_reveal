@@ -26,7 +26,7 @@
 
 ## Phase transitions
 
-<img src="Perovskite phases.svg" height=55% width=55% style="background:none; border:none; box-shadow:none;">
+<img src="../images/Perovskite phases.svg" height=55% width=55% style="background:none; border:none; box-shadow:none;">
 
 # Approach
 
