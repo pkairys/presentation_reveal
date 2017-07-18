@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Paul Kairys">
+  <title>NREL Internship Review</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="../reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">NREL Internship Review</h1>
+  <p class="author">Paul Kairys</p>
+  <p class="date">July 2017</p>
+</section>
+
+<section><section id="personal-background" class="titleslide slide level1"><h1>Personal Background</h1></section><section id="florida-retro" class="slide level2">
+<h2><img src="../images/Florida_retro.png" alt="Florida Retro" id="id" class="class" style="background:none; border:none;box-shadow:none;" /></h2>
+<ul>
+<li class="fragment">I was born and raised there</li>
+<li class="fragment">I went to school there</li>
+<li class="fragment">I am attempting to never go back there</li>
+</ul>
+</section><section id="usf-logo" class="slide level2">
+<h2><img src="../images/USF_logo.svg" alt="USF Logo" id="id" class="class" style="background:none; border:none; box-shadow:none;" /></h2>
+<ul>
+<li class="fragment">B.Sc. Chemical Engineering</li>
+<li class="fragment">Undergraduate research focused on finite element simulations and digital signal processing</li>
+<li class="fragment">Programming in COMSOL(FEM software in Java), Matlab, Python, Julia</li>
+<li class="fragment">Senior year I postponed graduation to come to NREL and do cool stuff</li>
+</ul>
+</section></section>
+<section><section id="internship-1-suli" class="titleslide slide level1"><h1>Internship #1 : SULI</h1></section><section id="halide-perovskite-solar-cell-team" class="slide level2">
+<h2>Halide perovskite Solar Cell Team</h2>
+<ul>
+<li class="fragment">Part of the MCST and Interfacial and Surface Sciences Group</li>
+<li class="fragment">Mentors were Joe Berry (PI) and Philip Schulz (post-doc)</li>
+<li class="fragment">Chosen because I was interested in materials and could use python</li>
+<li class="fragment">Also chosen because they waited until the last minute</li>
+</ul>
+</section><section id="intro-to-perovskite-solar-cells" class="slide level2">
+<h2>Intro to Perovskite Solar Cells</h2>
+<ul>
+<li class="fragment">Efficient ✔</li>
+<li class="fragment">Cheap to make ✔</li>
+<li class="fragment">Even a little stable 𝙓<br />
+</li>
+<li class="fragment">ABX<sub>3</sub> structure
+<ul>
+<li class="fragment">A : MA, FA, Cs, Rb</li>
+<li class="fragment">B : Pb, Sn</li>
+<li class="fragment">X : I, Cl, Br</li>
+</ul></li>
+</ul>
+</section><section id="abx3-cubic-crystal" class="slide level2">
+<h2>ABX<sub>3</sub> Cubic Crystal</h2>
+<figure>
+<img src="../images/CsPI_cubic.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:80.0%" style="height:80.0%" />
+</figure>
+</section><section id="how-to-get-a-better-understanding-of-these-materials" class="slide level2">
+<h2>How to get a better understanding of these materials?</h2>
+</section><section id="x-ray-photoemission-spectroscopy" class="slide level2">
+<h2>X-ray Photoemission Spectroscopy</h2>
+<figure>
+<img src="../images/XPS.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:40.0%" style="height:40.0%" />
+</figure>
+</section><section id="xps" class="slide level2">
+<h2>XPS:</h2>
+<ul>
+<li class="fragment">Pros:
+<ul>
+<li class="fragment">Quantitative surface analysis technique</li>
+<li class="fragment">Probes core electrons 0-10 nm deep</li>
+<li class="fragment">Provides information about electronic <em>and</em> chemical environment at the surface</li>
+<li class="fragment">Provides extremely useful info on charge transfer dynamics at the surface of a material</li>
+</ul></li>
+</ul>
+</section><section id="xps-1" class="slide level2">
+<h2>XPS:</h2>
+<ul>
+<li class="fragment">Cons:
+<ul>
+<li class="fragment">Typically slow (hrs for single core level scan)</li>
+<li class="fragment">Subjective Analysis</li>
+<li class="fragment">Perovskites tend to fall apart under normal sunlight (X-rays hurt)</li>
+</ul></li>
+</ul>
+</section><section id="my-project" class="slide level2">
+<h2>My Project</h2>
+<ol type="1">
+<li class="fragment">Enable high-throughput photoemission studies with high fidelity
+<ul>
+<li class="fragment">Requires automated analysis and quantified error</li>
+</ul></li>
+<li class="fragment">Build materials database and perform bulk analysis
+<ul>
+<li class="fragment">Requires experimentalists to keep their files organized and/or consistent</li>
+</ul></li>
+</ol>
+</section><section id="results" class="slide level2">
+<h2>Results</h2>
+<ol type="1">
+<li class="fragment"><p>At high throughput, the electronic information provided by XPS is limited. But it works very well for chemical composition and material classification.</p></li>
+<li class="fragment">There are very clear trends to see when bulk analysis is performed.
+<ul>
+<li class="fragment">Only able to perform qualitative analysis due to time constraints</li>
+</ul></li>
+</ol>
+</section><section id="section" class="slide level2">
+<h2><img src="../images/Pb4f_layer_thickness.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" /></h2>
+</section><section id="section-1" class="slide level2">
+<h2><img src="../images/Pb4f_researcher.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" /></h2>
+</section><section id="bonus-picture" class="slide level2">
+<h2>Bonus Picture</h2>
+<figure>
+<img src="../images/suli_slide_pic.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" />
+</figure>
+</section></section>
+<section><section id="internship-2-rpp" class="titleslide slide level1"><h1>Internship #2 : RPP</h1></section><section id="computational-modeling---biomolecular-sciences" class="slide level2">
+<h2>Computational Modeling - Biomolecular Sciences</h2>
+<ul>
+<li class="fragment">Worked primarily with Yannick Bomble (PI#1), Seonah Kim (PI#2), and Peter St. John (post-doc)</li>
+<li class="fragment">Research primarily focuses on computational biology and chemistry</li>
+</ul>
+</section><section id="project-1" class="slide level2">
+<h2>Project 1:</h2>
+<h3 id="modelingpredicting-soot-formation-chemistry">Modeling/Predicting Soot Formation Chemistry</h3>
+</section><section id="soot-background" class="slide level2">
+<h2>Soot Background</h2>
+<ul>
+<li class="fragment">Soot is a collection nano-scale particles made of polycyclic aromatic hydrocarbons</li>
+<li class="fragment">Soot formation exacerbated by the presence of specific precursors during combustion</li>
+<li class="fragment">Controlling soot formation is critical when designing new fuels from biomass</li>
+<li class="fragment">Metrics like the Yield Sooting Index (YSI) describe a molecule's propensity to create soot during combustion</li>
+</ul>
+</section><section id="section-2" class="slide level2">
+<h2><img src="../images/Soot_formation_small.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" /></h2>
+</section><section id="how-to-predict-which-fuels-make-the-most-soot" class="slide level2">
+<h2>How to predict which fuels make the most soot?</h2>
+</section><section id="use-statistical-models-like-a-ann" class="slide level2">
+<h2>Use statistical models like a ANN</h2>
+<ul>
+<li class="fragment">An artificial neural net (ANN) takes an array of inputs to predict some number
+<ul>
+<li class="fragment">It is like fitting a curve, except in a very non-linear and high-dimensional space</li>
+</ul></li>
+<li class="fragment">When used for chemistry/biology this is called a Quantitative Structure Activity Relationship (QSAR)</li>
+<li class="fragment">So what are the inputs? --&gt; <em>molecular descriptors</em>
+<ul>
+<li class="fragment">Number of double bonds</li>
+<li class="fragment">Number of aromatic rings</li>
+<li class="fragment">~5000 descriptors</li>
+</ul></li>
+</ul>
+</section><section id="section-3" class="slide level2">
+<h2><img src="../images/YSI_NN_flowchart.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" /></h2>
+</section><section id="outliers" class="slide level2">
+<h2>Outliers</h2>
+<ul>
+<li class="fragment">Every statistical model has them</li>
+<li class="fragment">Indicative that the outlier's chemistry/physics is not fully &quot;caught&quot; by the model
+<ul>
+<li class="fragment">Something interesting might be happening</li>
+</ul></li>
+<li class="fragment">One particular outliers comes from the group of cycloalkenes</li>
+</ul>
+</section><section id="section-4" class="slide level2">
+<h2><img src="../images/YSI_outlier_calcs.png" id="id" class="class" style="background:none; border:none; box-shadow:none;" style="width:50.0%" style="height:50.0%" /></h2>
+</section><section id="results-1" class="slide level2">
+<h2>Results</h2>
+<ul>
+<li class="fragment">A model that can accurately predict a molecule's propensity to create soot</li>
+<li class="fragment">Chemical insights</li>
+<li class="fragment">A paper</li>
+</ul>
+</section><section id="project-2" class="slide level2">
+<h2>Project 2:</h2>
+<h3 id="cellulase-enzyme-dynamics-and-characterization">Cellulase Enzyme Dynamics and Characterization</h3>
+</section><section id="enzyme-background" class="slide level2">
+<h2>Enzyme Background</h2>
+<ul>
+<li class="fragment">Cellulase Enzymes &quot;eat&quot; ... Cellulose</li>
+<li class="fragment">Understanding how their structure changes is critical to engineering and optimization of these macromolecules.</li>
+<li class="fragment">One way to characterize these proteins is with Small Angle X-ray (or Neutron) Scattering</li>
+</ul>
+</section><section id="results-conclusion" class="slide level2">
+<h2>Results + Conclusion</h2>
+<ul>
+<li class="fragment">We had <em>really</em> bad data --&gt; No real results</li>
+<li class="fragment">I got to go to Brookhaven National Laboratory to run experiments at their syncrotron</li>
+</ul>
+</section></section>
+<section><section id="questionscomments" class="titleslide slide level1"><h1>Questions/Comments?</h1></section></section>
+    </div>
+  </div>
+
+  <script src="../reveal.js/lib/js/head.min.js"></script>
+  <script src="../reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: '../reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
