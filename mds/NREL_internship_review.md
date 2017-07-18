@@ -145,7 +145,7 @@
 ## Results + Conclusion
 
 -  We had _really_ bad data --> No real results
--  I got to go to Brookhaven National Laboratory to run experiments at their syncrotron
+-  I got to go to Brookhaven National Laboratory to run experiments at their synchrotron
 
 # Questions/Comments?
 
