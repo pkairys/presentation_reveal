@@ -31,6 +31,7 @@
 - Efficient &#10004;
 - Cheap to make &#10004;
 - Even a little stable &#120403;  
+- Consistent Properties &#120403;
 - ABX~3~ structure
     -  A : MA, FA, Cs, Rb
     -  B : Pb, Sn
@@ -106,7 +107,7 @@
 
 ## How to predict which fuels make the most soot?
 
-## Use statistical models like a ANN
+## Use statistical models!
 
 -  An artificial neural net (ANN) takes an array of inputs to predict some number
     -  It is like fitting a curve, except in a very non-linear and high-dimensional space 
@@ -123,7 +124,7 @@
 - Every statistical model has them
 - Indicative that the outlier's chemistry/physics is not fully "caught" by the model
     -  Something interesting might be happening
-- One particular outliers comes from the group of cycloalkenes
+- One particular outlier comes from the group of cycloalkenes
 
 ## ![](../images/YSI_outlier_calcs.png){ width=50% height=50% #id .class style="background:none; border:none; box-shadow:none;"}
 
